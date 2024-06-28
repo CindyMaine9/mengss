@@ -1,0 +1,154 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: skyblue;
+}
+header {
+    background-color: rgb(25, 190, 255);
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+/* Home section */
+#home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #fff;
+}
+.intro {
+    max-width: 600px;
+}
+.intro h1 {
+    font-size: 3em;
+    color: #f395ff;
+}
+.intro h2 {
+    font-size: 2em;
+}
+.intro h2 span {
+    font-weight: bold;
+}
+.intro p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #005198;
+    color: #f5a6ff;
+}
+/* About, Projects, Resume, Contact sections */
+section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 20px;
+}
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #4ecbfd;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+footer p {
+    margin: 0;
+}
+.resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #a1f4ff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.resume-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.resume-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.resume-contact {
+    text-align: left;
+}
+
+.resume-contact h1 {
+    margin: 0;
+    font-size: 2em;
+}
+.resume-contact p {
+    margin: 5px 0;
+}
+.resume-section {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.resume-section h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+.resume-section ul {
+    list-style: none;
+    padding: 0;
+}
+.resume-section ul li {
+    margin-bottom: 10px;
+}
+.resume-section ul li strong {
+    display: block;
+    font-weight: bold;
+}
+.resume-section ul li p {
+    margin: 5px 0;
+}
+.cavsu  {
+    width: 800px;
+    height: 400px;
+}
+.voting  {
+    width: 800px;
+    height: 400px;
+}
+.forms  {
+    width: 800px;
+    height: 400px;
+}
